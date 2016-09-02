@@ -13,6 +13,7 @@ It's a .NET project with following technologies and patterns:
   - Identity (whitout EF)
 
 Here follow the layers used in this project:
+
 ![alt tag](https://github.com/saleslessa/LearningMongoDB/blob/master/Storm/Layers.png)
 
 
