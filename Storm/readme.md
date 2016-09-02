@@ -1,4 +1,4 @@
-# Mongo + Identity (Whitout EntityFramework)
+# Mongo + Identity (Whitout Entity Framework)
 
 This is a project when I had to use mongodb + identity
 
