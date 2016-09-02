@@ -11,6 +11,7 @@ It's a .NET project with following technologies and patterns:
   - Unit Testing (Using Rhinomocks)
   - mongoDB
   - Identity (whitout EF)
-  
+
+![alt tag](https://github.com/saleslessa/LearningMongoDB/blob/master/Storm/Layers.png)
 
 
