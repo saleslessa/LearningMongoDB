@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Storm.Business.ViewModels.HeroViewModel>
+
+@{
+    ViewBag.Title = "Buy Heroes";
+}
+
+<h2>Buy Heroes</h2>
+<div id="errorSummary">
+</div>
+
+<input type="hidden" id="idPlayer" value="@ViewBag.idPlayer" />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroFreeToPlay)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroFreeToPlay)
+            </td>
+            <td>
+                <input type="button" class="btn btn-success" value="Buy" id="@Html.Raw(item.HeroId)" name="btnBuy" />
+            </td>
+        </tr>
+    }
+
+</table>
+
+@section Scripts {
+    <script src="~/Scripts/BuyHeroes.js"></script>
+}

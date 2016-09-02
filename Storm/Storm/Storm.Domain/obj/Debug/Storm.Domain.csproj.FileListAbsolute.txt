@@ -1,0 +1,10 @@
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\bin\Debug\Storm.Domain.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\bin\Debug\Storm.Domain.pdb
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\bin\Debug\CommonSerializer.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\bin\Debug\DomainValidation.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\bin\Debug\MongoDB.Bson.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\bin\Debug\CommonSerializer.xml
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\bin\Debug\MongoDB.Bson.xml
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\obj\Debug\Storm.Domain.csprojResolveAssemblyReference.cache
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\obj\Debug\Storm.Domain.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Domain\obj\Debug\Storm.Domain.pdb

@@ -1,0 +1,13 @@
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\Storm.Infra.Data.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\Storm.Infra.Data.pdb
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\MongoDB.Bson.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\MongoDB.Driver.Core.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\MongoDB.Driver.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\Storm.Domain.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\DomainValidation.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\Storm.Domain.pdb
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\MongoDB.Bson.xml
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\bin\Debug\MongoDB.Driver.xml
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\obj\Debug\Storm.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\obj\Debug\Storm.Infra.Data.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Infra.Data\obj\Debug\Storm.Infra.Data.pdb

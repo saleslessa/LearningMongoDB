@@ -1,0 +1,11 @@
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\DomainTests.dll
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\DomainTests.pdb
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\DomainValidation.dll
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\Storm.Domain.dll
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\Storm.Domain.pdb
+C:\Storm - Blizzard Home Test\tests\DomainTests\obj\Debug\DomainTests.csprojResolveAssemblyReference.cache
+C:\Storm - Blizzard Home Test\tests\DomainTests\obj\Debug\DomainTests.dll
+C:\Storm - Blizzard Home Test\tests\DomainTests\obj\Debug\DomainTests.pdb
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\MongoDB.Bson.dll
+C:\Storm - Blizzard Home Test\tests\DomainTests\bin\Debug\MongoDB.Bson.xml

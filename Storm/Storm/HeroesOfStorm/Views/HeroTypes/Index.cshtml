@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Storm.Business.ViewModels.HeroTypeViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroTypeName)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroTypeName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.HeroTypeId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.HeroTypeId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.HeroTypeId })
+            </td>
+        </tr>
+    }
+
+</table>

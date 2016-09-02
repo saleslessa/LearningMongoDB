@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Storm.Business.ViewModels.HeroViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroFreeToPlay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeroActive)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroFreeToPlay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroActive)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.HeroId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.HeroId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.HeroId })
+            </td>
+        </tr>
+    }
+
+</table>

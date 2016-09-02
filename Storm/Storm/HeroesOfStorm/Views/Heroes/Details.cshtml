@@ -1,0 +1,57 @@
+﻿@model Storm.Business.ViewModels.HeroViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Hero detail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HeroName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HeroName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HeroType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HeroType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HeroPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HeroPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HeroFreeToPlay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HeroFreeToPlay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HeroActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HeroActive)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HeroId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

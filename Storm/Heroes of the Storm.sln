@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{16A4C439-3869-4F30-8966-F2CD4130C2C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{9575BB0A-2A8A-4AD4-8361-4DD3C05A290D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{E5D0918C-A525-4018-AD7E-914676596020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{6F482CF4-EF47-4E9B-9D49-6D6FE3D47914}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{9FF670E2-FF42-4224-834B-C7DDF3B8D75F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business", "2 - Business", "{228C7527-B83D-4AC7-81F6-9764DDC13723}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - UnitTests", "5 - UnitTests", "{2A24F979-3EC1-4BE1-B191-D938C892FD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.Domain", "Storm - Blizzard Home Test\Storm.Domain\Storm.Domain.csproj", "{C4E1087A-7551-4DBB-817C-A4C06EDB94F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.Business", "Storm - Blizzard Home Test\Storm.Business\Storm.Business.csproj", "{4E12C00F-31C6-467D-AA41-A6C9295609FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.Infra.Data", "Storm - Blizzard Home Test\Storm.Infra.Data\Storm.Infra.Data.csproj", "{532A6DF0-CC44-43F1-B526-062C1B5F9D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.Service", "Storm - Blizzard Home Test\Storm.Service\Storm.Service.csproj", "{AABBCCC4-16AC-4067-96CC-1C602F7DE91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.Infra.CrossCutting.IoC", "Storm - Blizzard Home Test\Storm.Infra.CrossCutting.IoC\Storm.Infra.CrossCutting.IoC.csproj", "{751D1B8E-5553-447D-912F-863299D9F15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.UnitTests", "Storm.UnitTests\Storm.UnitTests.csproj", "{AEC4893E-F87D-4617-9A4F-3E1055178BB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Demo", "0 - Demo", "{22075780-81A5-4E65-8827-1F61E8214F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesOfStorm", "Storm - Blizzard Home Test\HeroesOfStorm\HeroesOfStorm.csproj", "{602B16EC-EA5D-426D-9402-781F80D2CB13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E1087A-7551-4DBB-817C-A4C06EDB94F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E1087A-7551-4DBB-817C-A4C06EDB94F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E1087A-7551-4DBB-817C-A4C06EDB94F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E1087A-7551-4DBB-817C-A4C06EDB94F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E12C00F-31C6-467D-AA41-A6C9295609FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E12C00F-31C6-467D-AA41-A6C9295609FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E12C00F-31C6-467D-AA41-A6C9295609FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E12C00F-31C6-467D-AA41-A6C9295609FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532A6DF0-CC44-43F1-B526-062C1B5F9D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532A6DF0-CC44-43F1-B526-062C1B5F9D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532A6DF0-CC44-43F1-B526-062C1B5F9D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532A6DF0-CC44-43F1-B526-062C1B5F9D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABBCCC4-16AC-4067-96CC-1C602F7DE91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABBCCC4-16AC-4067-96CC-1C602F7DE91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABBCCC4-16AC-4067-96CC-1C602F7DE91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABBCCC4-16AC-4067-96CC-1C602F7DE91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751D1B8E-5553-447D-912F-863299D9F15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751D1B8E-5553-447D-912F-863299D9F15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751D1B8E-5553-447D-912F-863299D9F15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751D1B8E-5553-447D-912F-863299D9F15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC4893E-F87D-4617-9A4F-3E1055178BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC4893E-F87D-4617-9A4F-3E1055178BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC4893E-F87D-4617-9A4F-3E1055178BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC4893E-F87D-4617-9A4F-3E1055178BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602B16EC-EA5D-426D-9402-781F80D2CB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602B16EC-EA5D-426D-9402-781F80D2CB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602B16EC-EA5D-426D-9402-781F80D2CB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602B16EC-EA5D-426D-9402-781F80D2CB13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F482CF4-EF47-4E9B-9D49-6D6FE3D47914} = {E5D0918C-A525-4018-AD7E-914676596020}
+		{9FF670E2-FF42-4224-834B-C7DDF3B8D75F} = {E5D0918C-A525-4018-AD7E-914676596020}
+		{C4E1087A-7551-4DBB-817C-A4C06EDB94F6} = {9575BB0A-2A8A-4AD4-8361-4DD3C05A290D}
+		{4E12C00F-31C6-467D-AA41-A6C9295609FF} = {228C7527-B83D-4AC7-81F6-9764DDC13723}
+		{532A6DF0-CC44-43F1-B526-062C1B5F9D30} = {6F482CF4-EF47-4E9B-9D49-6D6FE3D47914}
+		{AABBCCC4-16AC-4067-96CC-1C602F7DE91C} = {16A4C439-3869-4F30-8966-F2CD4130C2C9}
+		{751D1B8E-5553-447D-912F-863299D9F15C} = {9FF670E2-FF42-4224-834B-C7DDF3B8D75F}
+		{AEC4893E-F87D-4617-9A4F-3E1055178BB4} = {2A24F979-3EC1-4BE1-B191-D938C892FD58}
+		{602B16EC-EA5D-426D-9402-781F80D2CB13} = {22075780-81A5-4E65-8827-1F61E8214F0D}
+	EndGlobalSection
+EndGlobal

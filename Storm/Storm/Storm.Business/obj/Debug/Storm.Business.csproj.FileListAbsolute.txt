@@ -1,0 +1,12 @@
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\Storm.Business.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\Storm.Business.pdb
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\AutoMapper.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\DomainValidation.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\MongoDB.Bson.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\Storm.Domain.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\Storm.Domain.pdb
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\AutoMapper.xml
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\bin\Debug\MongoDB.Bson.xml
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\obj\Debug\Storm.Business.csprojResolveAssemblyReference.cache
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\obj\Debug\Storm.Business.dll
+C:\Storm - Blizzard Home Test\Storm - Blizzard Home Test\Storm.Business\obj\Debug\Storm.Business.pdb
