@@ -1,4 +1,4 @@
-# Just a piece of code
+# Mongo + Identity (Whitout EntityFramework)
 
 This is a project when I had to use mongodb + identity
 
